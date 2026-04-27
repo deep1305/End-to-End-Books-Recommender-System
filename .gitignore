@@ -2,3 +2,16 @@
 notebook/artifacts
 *.egg-info/
 notes.txt
+logs/
+artifacts/
+templates/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# OS
+.DS_Store
