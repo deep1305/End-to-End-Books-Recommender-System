@@ -1,6 +1,4 @@
-def main():
-    print("Hello from end-to-end-books-recommender-system!")
+from books_recommender.pipeline.training_pipeline import TrainingPipeline
 
-
-if __name__ == "__main__":
-    main()
+obj = TrainingPipeline()
+obj.start_training_pipeline()

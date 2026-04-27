@@ -1,2 +1,4 @@
 .venv/
 notebook/artifacts
+*.egg-info/
+notes.txt
